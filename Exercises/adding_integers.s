@@ -15,8 +15,8 @@ li $v0,1        #int_output
 move $a0,$t2    #moving the t2 value to the output parameter
 syscall         #calling the system function
 
-li $v0,10   #calling the exit function
-syscall     #calling the system function
+li $v0,10   #
+syscall     #exit
 
 .data
 msg: .asciiz "The result is->"
